@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Shahmir Ali Assignment 1</title>
+    <title>Box with text, button, and background picture</title>
+	<style>
+		.box {
+            background-image: url(https://images.unsplash.com/photo-1625535069654-cfeb8f829088?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHZpc3VhbCUyMHN0dWRpbyUyMGNvZGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+			background-size: cover;
+			padding: 100px;
+			text-align: center;
+			color: white;
+			border-radius: ;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+			margin: ;
+			max-width: 100%;
+		}
+
+		.box h1 {
+			margin-top: 0;
+		}
+
+		.box button {
+			background-color: black;
+			color: white;
+			padding: 10px 20px;
+			border: 1px;
+            border-style: solid;
+            border-color: rgb(216, 214, 214);
+			font-size: 20px;
+			cursor: pointer;
+			margin-top: 20px;
+        }
+        .two {
+			padding: 20px;
+			text-align: center;
+			color: #333;
+			border-radius: 10px;
+			max-width: 100%;
+			display: table;
+            margin-left: 150px;
+		}
+
+		.two h2 {
+			margin-top: 0;
+            text-align: center;
+           
+		}
+
+		.two p {
+			margin: 15px;
+		}
+
+		.table {
+			width: 100%;
+			border-collapse: collapse;
+			
+            text-align: center;
+            align-items: center;
+		}
+
+		.td {
+			border:  #ddd;
+			padding: 30px;
+			vertical-align: top;
+		}
+        .cover{
+        width: 100%;
+        height: 530px;
+        background-color: #202020;
+        display: flex;
+        color: white;
+        justify-content: center;
+    }        
+    .three{
+       
+        width: 270px;
+        height: 470px;
+        color: black;
+        background-color: white;
+        margin: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .three img{
+        width: 270px;
+        height: 200px;
+    }
+    .three p{
+        text-align: center;
+        margin: 25px;
+        margin-bottom: 20px;
+    }
+    .three h2{
+        text-align: center;
+    }
+    .four {
+			padding: 20px;
+			text-align: center;
+			color: black;
+			border-radius: 10px;
+			max-width: 100%;
+		}
+        .four h2{
+            text-align: center;
+        }
+        .four p{
+            text-align: center;
+        }
+        * {
+  box-sizing: border-box;
+}
+      .column1 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  background-color: 	#4682B4;
+  color: white;
+  height: 250px; 
+}
+.column1 p{
+    text-align: center;
+    
+}
+.column1 h2{
+    text-align: center;
+}
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 250px; 
+  background-color: #202020;
+  color: white;
+}
+.column2 h2{
+    text-align: center;
+}
+.column2 p{
+    text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;}
+
+  .row2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        background-color: black;
+        height: 75px;
+      }
+      
+      .column3 {
+        flex-basis: 48%;
+       color: white;
+       background-color: black;
+       text-align: center;
+        margin-top: 15px;
+      }
+      .column4 {
+        flex-basis: 48%;
+       color: white;
+       background-color: black;
+       text-align: center;
+        margin-top: 15px;
+      }
+      .bluetext{
+        color: blue;
+      }
+        </style>
+   
+</head>
+<body>
+    <div class="box">
+		<h1>Welcome to XYZ Solutions</h1>
+		<p>Lorem ipsum dolor sit ametluptatem debitis quae amet itaque. Laudantium numquam nam ad accusantium cum <br> totam quae cumque necessitatibus dicta at!</p>
+		<button>Read More</button>
+	</div>
+    <div class="two">
+		<h2> Web & Application Development</h2>
+		<table>
+			<tr>
+				<td>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Sed efficitur diam ut elit dignissim, et porttitor nisi interdum. <br> Sed ut turpis a sem mollis placerat vel vel magna. Suspendisse potenti.<br> </p>
+				</td>
+				<td>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Sed efficitur diam ut elit dignissim, et porttitor nisi interdum. <br> Sed ut turpis a sem mollis placerat vel vel magna. Suspendisse potenti.<br></p>
+				</td>
+			</tr>
+		</table>
+	</div>
+    <div class="cover">
+        <div class="three">
+          <img src="web pic.jpg" alt="Image 1" >
+          <h2>Web Development</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nulla pariatur perferendis adipisci ullam ipsum consequuntur expedita illum! Corporis alias repellendus, explicabo aliquid sequi perspiciatis necessitatibus quae. Quas, repellendus sit!</p>
+        </div>
+        <div class="three">
+          <img src="app pic.jpg" alt="Image 2">
+          <h2>Mobile Application</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam obcaecati quidem dolorum nobis perspiciatis neque quisquam nostrum reiciendis veritatis amet, enim minus cumque iusto totam perferendis voluptates vel temporibus?</p>
+        </div>
+        <div class="three">
+          <img src="tech pic.jpg" alt="Image 3">
+          <h2>Tech Marketing</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore esse excepturi accusamus sapiente repellendus nobis distinctio corrupti natus vel, iste dignissimos! Amet dolores, error molestiae quidem est libero mollitia quod!</p>
+        </div>
+      </div>
+      <div class="four">
+		<h2> We handle all of your digital needs</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ullam voluptatem illo, labore libero nulla nemo itaque aliquam, obcaecati nam tempora <br> atque pariatur natus iure accusantium sapiente ea nesciunt veritatis?</p>
+      </div>
+      <div class="row">
+        <div class="column1" >
+          <h2>Contact Us</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam error impedit tenetur, accusantium voluptas voluptatem? Illo eligendi quia alias incidunt optio. Rem minus provident eius obcaecati officiis repellat cupiditate libero!</p> <br>
+          <p>Contact@acmewebsolutions.test</p>
+        </div>
+        <div class="column2" >
+              <h2>About Our Company</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae ea rem totam suscipit perspiciatis culpa, dolores, fugiat sunt ut incidunt magni voluptatum dolore unde explicabo commodi a est repellat quo.</p>
+          
+        </div>
+      </div>
+      <div class="row2">
+        <div class="column3">
+          <p>XYZ Solutions</p>
+        </div>
+        <div class="column4">
+          <p>Project by <span class="bluetext"> &nbsp; XYZ World </span></p>
+        </div>
+      </div>
+      
+</body>
+</html>
